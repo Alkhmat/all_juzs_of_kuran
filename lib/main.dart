@@ -1,3 +1,4 @@
+import 'package:all_juzs_of_kuran/code/repository/home/home_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,6 +12,7 @@ class AllJuzsOfKuran extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
+      home: HomeView(),
     );
   }
 }
